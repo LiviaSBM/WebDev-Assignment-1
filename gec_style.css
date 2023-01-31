@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Indubitably NF';
+    src: url('indubitably-nf 2.ttf') format('truetype'), url('indubitably.regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Levnam Light';
+    src: url('Levnam W03 Light.ttf') format('truetype'), url('levnam-light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Bold';
+    src: url('Louis George Cafe Bold.ttf') format('truetype'), url('Louis George Cafe Bold.otf') format('opentype');
+}
+ a {
+    text-decoration: none;
+     text-decoration-color: rgb(42, 165, 69);
+} 
+*{
+    margin: 0;
+    padding-left: 0%;
+    padding-right: 0;
+}
+#container{
+    width: 1015px;
+    margin:0 auto;
+    border: 1px;
+    background-color: #FFFFF0;
+}
+header{
+    font-family: 'Indubitably NF';
+    font-style: italic;
+    font-size: 48px;
+    height: 60px;
+    /* width: 100%; */
+    background-color: rgba(255,229,218,255);
+    color: rgba(185,122,87,255);
+}
+#subheader{
+    font-family: 'Indubitably NF';
+    font-style: italic;
+    font-size: 22px;
+    background-color: rgba(64,64,64,255);
+    color: rgba(246,121,44,255);
+    height: 30px;
+#subcontainer{
+    margin-top: 4px;
+}
+
+
+}
+body{
+    background-color: rgba(235,178,132,255);
+}
+#leftcolumn{
+    font-family: 'Levnam Light';
+    font-size: 14px;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: left;
+    height: 790px;
+    width: 20%;
+    line-height: 21px;
+}
+#centralcolumn{
+    font-family: 'Levnam Light';
+    text-align: left;
+    font-size:smaller;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: left;
+    height: 790px;
+    width: 60%;
+    font-family: ;
+}
+#rightcolumn{
+    /* font-family: 'Louis George Cafe Bold'; */
+    background-color: rgba(255,255,240,255);
+    float: left;
+    height: 790px;
+    width: 20%;
+    color: rgba(236,174,128,255);
+}
+h2{
+    background-color: rgba(222,128,60,255);
+    color: rgba(252,251,255,255);
+}
+footer{
+    background-color: rgba(222,128,60,255);
+    color: white;
+    /* height: 30px; */
+    /* width: 100%; */
+}
