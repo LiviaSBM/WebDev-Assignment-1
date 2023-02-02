@@ -24,33 +24,27 @@
     padding-right: 0;
 }
 #container{
-    width: 1015px;
+    width: 900px;
     margin:0 auto;
     border: 1px;
     background-color: #FFFFF0;
 }
 header{
-    font-family: 'Indubitably NF';
-    font-style: italic;
-    font-size: 48px;
-    height: 60px;
-    /* width: 100%; */
-    background-color: rgba(255,229,218,255);
-    color: rgba(185,122,87,255);
+    /* display: table-cell; */
+    width: 900px;
+
 }
-#subheader{
+/* #subheader{
     font-family: 'Indubitably NF';
     font-style: italic;
     font-size: 22px;
     background-color: rgba(64,64,64,255);
     color: rgba(246,121,44,255);
     height: 30px;
-#subcontainer{
-    margin-top: 4px;
-}
 
 
-}
+
+} */
 body{
     background-color: rgba(235,178,132,255);
 }
@@ -60,36 +54,106 @@ body{
     background-color: rgba(255,255,240,255);
     color: rgba(94,94,94,255);
     float: left;
-    height: 790px;
+    height: 760px;
     width: 20%;
     line-height: 21px;
+    padding-top: 25px;
+}
+#menutitle{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(94,94,94,255);
+    letter-spacing: 4px;
 }
 #centralcolumn{
     font-family: 'Levnam Light';
     text-align: left;
-    font-size:smaller;
+    font-size: small;
     background-color: rgba(255,255,240,255);
     color: rgba(94,94,94,255);
     float: left;
-    height: 790px;
-    width: 60%;
-    font-family: ;
+    height: 760px;
+    width: 56%;
+    padding-top: 25px;
+    padding-right: 25px;
 }
 #rightcolumn{
     /* font-family: 'Louis George Cafe Bold'; */
     background-color: rgba(255,255,240,255);
+    font-size: small;
     float: left;
-    height: 790px;
-    width: 20%;
+    height: 760px;
+    width: 15%;
     color: rgba(236,174,128,255);
+    padding-top: 25px;
+    padding-right: 55px;
+    /* line-height: 120%; */
 }
 h2{
     background-color: rgba(222,128,60,255);
     color: rgba(252,251,255,255);
 }
+h3{
+    background-color: rgba(235,177,131,255);
+    color: white;
+}
+#uppermain{
+    display: table;
+}
+#aboutgec{
+    display: table-cell;
+    float: right;
+    width: 170px;
+    height: fit-content;
+    /* padding-left: 20px; */
+}
+#textgec{
+    display: table-cell;
+    float: left;
+    width: 300px;
+}
+
+#classes {
+    display: table;
+}
+#runningimg{
+    display: table-cell;
+    float: left;
+    width: fit-content;
+}
+#runningtext{
+    display: table-cell;
+    float: right;
+    width: 93%;
+}
+#swimmingimg{
+    display: table-cell;
+    float: left;
+    width: fit-content;
+}
+#swimmingtext{
+    display: table-cell;
+    float: right;
+    width: 93%;
+}
+#cyclingimg{
+    display: table-cell;
+    float: left;
+    width: fit-content;
+}
+#cyclingtext{
+    display: table-cell;
+    float: right;
+    width: 93%;
+}
 footer{
     background-color: rgba(222,128,60,255);
+    width: 1015px;
     color: white;
-    /* height: 30px; */
-    /* width: 100%; */
+    /* height: 20px; */
+    width: 100%;
+}
+
+#containerrun{
+
 }
