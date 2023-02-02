@@ -30,21 +30,8 @@
     background-color: #FFFFF0;
 }
 header{
-    /* display: table-cell; */
     width: 900px;
-
 }
-/* #subheader{
-    font-family: 'Indubitably NF';
-    font-style: italic;
-    font-size: 22px;
-    background-color: rgba(64,64,64,255);
-    color: rgba(246,121,44,255);
-    height: 30px;
-
-
-
-} */
 body{
     background-color: rgba(235,178,132,255);
 }
@@ -78,7 +65,6 @@ body{
     padding-right: 25px;
 }
 #rightcolumn{
-    /* font-family: 'Louis George Cafe Bold'; */
     background-color: rgba(255,255,240,255);
     font-size: small;
     float: left;
@@ -87,7 +73,6 @@ body{
     color: rgba(236,174,128,255);
     padding-top: 25px;
     padding-right: 55px;
-    /* line-height: 120%; */
 }
 h2{
     background-color: rgba(222,128,60,255);
@@ -105,7 +90,6 @@ h3{
     float: right;
     width: 170px;
     height: fit-content;
-    /* padding-left: 20px; */
 }
 #textgec{
     display: table-cell;
@@ -150,10 +134,47 @@ footer{
     background-color: rgba(222,128,60,255);
     width: 1015px;
     color: white;
-    /* height: 20px; */
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-small;
     width: 100%;
 }
+#rightcolumnrun{
+    font-family: 'Levnam Light';
+    font-size: 14px;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: right;
+    height: 1040px;
+    width: 77.2%;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+#leftcolumnrun{
+    font-family: 'Levnam Light';
+    font-size: 14px;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: left;
+    height: 1040px;
+    width: 20%;
+    line-height: 21px;
+    padding-top: 25px;
+}
 
-#containerrun{
-
+#h2run{
+    background-color: rgba(185,122,87,255);
+    color: white;
+    font-family: 'Levnam Light';
+    letter-spacing: 3px;
+}
+#h3run{
+    background-color: rgba(185,122,87,255);
+    color: white;
+    font-family: 'Levnam Light';
+    letter-spacing: 3px;
+}
+ol {
+    margin:0px 0;
+    padding-left:25px;
 }
