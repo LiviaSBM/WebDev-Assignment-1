@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Indubitably NF';
-    src: url('indubitably-nf 2.ttf') format('truetype'), url('indubitably.regular.otf') format('opentype');
+    font-family: 'Comic Sans';
+    src: url('Coming Sans.ttf') format('truetype'), url('Coming Sans.otf') format('opentype');
 }
 
 @font-face {
@@ -177,4 +177,95 @@ footer{
 ol {
     margin:0px 0;
     padding-left:25px;
+}
+#leftcolumncoach{
+    font-family: 'Levnam Light';
+    font-size: 14px;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: left;
+    height: 1460px;
+    width: 20%;
+    line-height: 21px;
+    padding-top: 25px;
+}
+.rightcolumncoach{
+    font-family: 'Levnam Light';
+    font-size: 14px;
+    background-color: rgba(255,255,240,255);
+    color: rgba(94,94,94,255);
+    float: right;
+    height: 1460px;
+    width: 77.2%;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.coach{
+    height: 18%;
+    float: left;
+}
+.coach1{
+    height: 25%;
+    display: table;
+}
+.coach2{
+    height: 26%;
+}
+.coach3{
+    height: 25%;
+}
+#coachlist li:before{
+    content: '✓ ';
+}
+#coachlist{
+    list-style: none;
+}
+.simal{
+    width: 68%;
+    /* height: 68%; */
+    float: right;
+}
+.simalimg{
+    height: 29%;
+    width: 29%;
+    margin-bottom: 5px;
+}
+.kevinimg{
+    height: 27%;
+    width: 27%;
+    float: left;
+    margin-right: 15px;
+}
+.kevin{
+    text-align: left;
+}
+.tammyimg{
+    height: 28%;
+    width: 28%;
+    float: left;
+    margin-right: 15px;
+}
+.tammy{
+    text-align: left;
+}
+.coachbox{
+    height: 115px;
+    width: 250px;
+    float: right;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #DE803C;
+    color: white;
+    text-align: center;
+}
+.h1coach{
+    background-color: #B97A57;
+    color: #F8D6B9;
+    letter-spacing: 4px;
+}
+.h2coach{
+    background-color: #FFFFF0;
+    color: #F07D00;
+    letter-spacing: 2px;
 }
